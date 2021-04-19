@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="banner" class="d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="neon">Happy Birthday</div>
+            <div class="flux">Harshit</div>
+        </div>
+    </div>
+    <div id="page-content" class="d-flex justify-content-center align-items-center flex-column">
+        <h1 class="wish-title mb-4">Our Best Wishes</h1>
+        <div class="video-div d-flex justify-content-center align-items-center">
+            <video width="400" height="250" poster="boy.jpg" controls>
+                <source src="wish.mp4" type="video/mp4">
+            </video>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg best-wishes-btn mt-4 grow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Best Wishes
+        </button>
+    </div>
+    <div id="footer">
+        <h1 class="wish-title from-title ms-4">From,</h1>
+        <h1 class="ma-title from-title">Manvi & Arihant</h1>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Our Best Wishes</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Our dear friend, may your special day be full of beautiful, magical and unforgettable moments! 
+                We are sorry we can't be with you on your special day but we will always be there for you in mind and spirit. 
+                On your birthday we wish you success and endless happiness! 
+                May all that you asked from God be granted to you hundred fold! Always keep smiling the way you do! 
+                May your birthday and your life be as wonderful as you are.
+                <br />
+                <br />
+                <b>Once again, a very Happy Birthday to you!</b>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>
